@@ -18,11 +18,11 @@ mysql -u root -e 'CREATE DATABASE IF NOT EXISTS `egg_RESTfulAPI_mysql_test`;'
   + database/
     - config.json
 ```
-或者项目搜索 
-dbUserName，修改数据库用户名
-123456789, 修改数据库密码
-123123123141231.mysql.rds.aliyuncs.com，修改服务器数据库链接
-egg_RESTfulAPI_mysql，修改数据库名
+或者项目搜索    
+dbUserName，修改数据库用户名   
+123456789, 修改数据库密码   
+123123123141231.mysql.rds.aliyuncs.com，修改服务器数据库链接   
+egg_RESTfulAPI_mysql，修改数据库名   
 
 ```bash
 # start
@@ -41,8 +41,9 @@ npm run ci
 
 ## Documents
 
-[eggjs sequelize document](https://eggjs.org/zh-cn/tutorials/mysql.html)
-[egg-sequelize](https://github.com/eggjs/egg-sequelize)
-[sequelize](http://docs.sequelizejs.com)
-[sequelize-cli and migrations](http://docs.sequelizejs.com/manual/tutorial/migrations.html)
-[factory-girl](https://github.com/aexmachina/factory-girl)
+[eggjs sequelize document](https://eggjs.org/zh-cn/tutorials/mysql.html)  
+[egg-sequelize](https://github.com/eggjs/egg-sequelize)   
+[sequelize](http://docs.sequelizejs.com)   
+[sequelize-cli and migrations](http://docs.sequelizejs.com/manual/tutorial/migrations.html)   
+[factory-girl](https://github.com/aexmachina/factory-girl)   
+ 
