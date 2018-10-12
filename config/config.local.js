@@ -9,6 +9,7 @@ module.exports = () => {
     port: 3306,
     hostname: '127.0.0.1',
     database: 'egg_RESTfulAPI_mysql_development',
+    user: 'dbUserName',
     password: '123456789',
     define: {
       underscored: false,

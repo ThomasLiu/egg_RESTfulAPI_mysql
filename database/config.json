@@ -1,30 +1,30 @@
 {
   "development": {
-    "username": "root",
-    "password": "12345678",
+    "username": "dbUserName",
+    "password": "123456789",
     "database": "egg_RESTfulAPI_mysql_development",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": "12345678",
+    "username": "dbUserName",
+    "password": "123456789",
     "database": "egg_RESTfulAPI_mysql_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "testOnline": {
-    "username": "test",
-    "password": "12345678",
+    "username": "dbUserName",
+    "password": "123456789",
     "database": "egg_RESTfulAPI_mysql_test",
     "host": "123123123141231.mysql.rds.aliyuncs.com",
     "dialect": "mysql"
   },
   "production": {
-    "username": "testuser",
-    "password": "12345678&Ok",
+    "username": "dbUserName",
+    "password": "123456789",
     "database": "egg_RESTfulAPI_mysql", 
-    "host": "rm-123123123141231.mysql.rds.aliyuncs.com",
+    "host": "123123123141231.mysql.rds.aliyuncs.com",
     "dialect": "mysql"
   }
 }
