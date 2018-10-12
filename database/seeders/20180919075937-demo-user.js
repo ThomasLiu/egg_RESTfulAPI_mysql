@@ -5,8 +5,8 @@
 
 // 达到执行以下语句的效果
 // insert into `users`
-// ( `id`, `updatedAt`, `lastAt`, `lastLanguage`, `headimgurl`, `genderType`, `password`, `mobiePhone`, `nickname`, `isLock`, `email`, `createdAt`)
-// values ( '1', '2018-06-22 03:46:20', '2018-06-22 03:46:00', 'zh', 'http://image.hiredchina.com/Fm_MRxEJSyL0dZZzl0VRmbWAAyMq', '0', '$2a$10$2Z.dsSvPDaGLTTnuUc3qN.c7YRuITuFoq/RvaQZ07T3tjrBk65CzG', '86_13422517829', 'Thomas Lau', '0', 'thomas_0836@qq.com', '2016-12-05 06:27:41');
+// ( `headimgurl`, `mobiePhone`, `nickname`, `email`, )
+// values ( 'http://image.hiredchina.com/Fm_MRxEJSyL0dZZzl0VRmbWAAyMq', '86_13422517829', 'Thomas Lau',  'thomas_0836@qq.com');
 
 module.exports = {
   up: async queryInterface => {

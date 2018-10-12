@@ -9,8 +9,8 @@ npm install
 npm run dev
 
 # 创建数据库
-mysql -u root -e 'CREATE DATABASE IF NOT EXISTS `test_development`;'
-mysql -u root -e 'CREATE DATABASE IF NOT EXISTS `test_test`;'
+mysql -u root -e 'CREATE DATABASE IF NOT EXISTS `egg_RESTfulAPI_mysql_development`;'
+mysql -u root -e 'CREATE DATABASE IF NOT EXISTS `egg_RESTfulAPI_mysql_test`;'
 
 # migrate up
 npx sequelize db:migrate
