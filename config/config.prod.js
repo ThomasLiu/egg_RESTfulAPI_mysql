@@ -8,8 +8,10 @@ module.exports = () => {
     dialect: 'mysql',
     port: 3306,
     hostname: '123123123141231.mysql.rds.aliyuncs.com',
+    host: '123123123141231.mysql.rds.aliyuncs.com',
     database: 'egg_RESTfulAPI_mysql',
     user: 'dbUserName',
+    username: 'dbUserName',
     password: '123456789',
     define: {
       underscored: false,

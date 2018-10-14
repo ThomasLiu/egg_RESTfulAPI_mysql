@@ -39,6 +39,27 @@ npx sequelize db:seed:all
 npm run ci
 ```
 
+## Production
+1、开一个新的文件夹，用Git 把项目下载，把/config/config.default.js 的 config.alinode 参数按照你在阿里云上的填上。   
+2、把package.json 内 scripts 的 tt命令的IP地址改成你要上传的服务器地址。   
+3、ssh上你的服务器，安装tt命令构建你的项目在服务器上的存放地址，或者修改tt的上传地址。   
+4、然后运行
+```
+npm run tt
+```
+5、cd 到刚刚上传的目录进行解压
+```
+tar zxvf egg_RESTfulAPI_mysql.tgz
+```
+6、再运行
+```
+npm start
+```
+7、暂停项目
+```
+npm run stop
+```
+
 ## Documents
 
 [eggjs sequelize document](https://eggjs.org/zh-cn/tutorials/mysql.html)  
@@ -47,3 +68,6 @@ npm run ci
 [sequelize-cli and migrations](http://docs.sequelizejs.com/manual/tutorial/migrations.html)   
 [factory-girl](https://github.com/aexmachina/factory-girl)   
  
+
+ ##### 注意
+ config.prod.js 文件内由于sequelize 的版本问题，4.0版本 hostname 换成了 host， user 换成了 username
