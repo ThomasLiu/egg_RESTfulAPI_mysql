@@ -68,6 +68,3 @@ npm run stop
 [sequelize-cli and migrations](http://docs.sequelizejs.com/manual/tutorial/migrations.html)   
 [factory-girl](https://github.com/aexmachina/factory-girl)   
  
-
- ##### 注意
- config.prod.js 文件内由于sequelize 的版本问题，4.0版本 hostname 换成了 host， user 换成了 username
