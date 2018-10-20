@@ -12,4 +12,16 @@ module.exports = app => {
   router.resources('emails', '/api/v1/emails', controller.api.v1.emails);
   router.resources('phones', '/api/v1/phones', controller.api.v1.phones);
 
+  const routerArray = [
+    'users',
+    'logs',
+    'wechatusers',
+    'userRoles',
+    'emails',
+    'phones',
+  ];
+
+  routerArray.forEach(item => {
+    router.resources(item, `/api/v1/${item}`, controller.api.v1[item]);
+  });
 };
