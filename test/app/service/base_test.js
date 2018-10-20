@@ -115,7 +115,7 @@ class BaseServiceTest {
       // 通过 factory-girl 快速创建 数据 对象到数据库中
       const entity = await app.factory.create(baseModel);
       const returnObj = await app.mockContext().service[baseModel].show(entity.id);
-      assert(returnObj.remark === entity.remark);
+      assert(returnObj.id === entity.id);
     });
   }
   async noExistsGetTest() {
